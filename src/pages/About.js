@@ -1,6 +1,7 @@
 import React from 'react'
 import CardTwo from '../components/CardTwo'
 import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 const About = () => {
   return (
     <>
@@ -62,6 +63,7 @@ const About = () => {
 </div>
  {/* ------potion3 */}
  <CardTwo/>
+    <Footer/>
     </>
   )
 }

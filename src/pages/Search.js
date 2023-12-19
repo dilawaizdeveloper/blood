@@ -1,8 +1,9 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 const Search = () => {
   return (
-    <div>
+    <>
       <h1>Search</h1>
       <div className="container-fluid ">
         <img src="/images/home.png" className="d-block w-100" alt="..." />
@@ -81,8 +82,8 @@ const Search = () => {
           </div>
         </div>
       </div>
-
-    </div>
+    <Footer/>
+    </>
   )
 }
 

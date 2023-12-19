@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import Accordian from '../accordian/Accodian'
+import Footer from "../components/Footer";
 
 const Event = () => {
   return (
@@ -68,6 +69,7 @@ const Event = () => {
     <Accordian/>
     </center>
     <br />
+    <Footer/>
     </>
   );
 };

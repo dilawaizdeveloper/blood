@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+.image-banner{
+  width: 100% !important;
+}
+.t1{
+  justify-content: center;
+  align-items: center;
+}
+.nav-css{
+  background-color: pink;
+}

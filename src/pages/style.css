@@ -1,0 +1,479 @@
+
+  /* media qurie for top img of about page */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .about-img{
+    margin-bottom:555px;
+  }
+  .about-img h1{
+    color: rgb(255, 0, 0);
+    font-size:25px;
+    text-align: left;
+    width:100%;  
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .about-img{
+    margin-bottom:535px;
+  
+  }
+  .about-img h1{
+    color: rgb(221, 19, 19);
+    font-size:45px;
+    text-align: left;
+    width:100%;  
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .about-img{
+    margin-bottom:520px;
+  
+  }
+  .about-img h1{
+    color: rgb(221, 19, 19);
+    font-size:50px;
+    text-align: left;
+    width:100%;  
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .about-img{
+    margin-bottom:505px;
+  
+  }
+  .about-img h1{
+    color: rgb(221, 19, 19);
+    font-size:50px;
+    text-align: left;
+    width:100%;  
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1201px) {
+  .about-img{
+    margin-bottom:480px;
+  
+  }
+  .about-img h1{
+    color: rgb(221, 19, 19);
+    font-size:70px;
+    text-align: left;
+    width:100%;  
+  }
+}
+/* about media qurie end  */
+
+
+.about-image{
+    width: 100%;
+}
+.about-text{
+  text-align: justify;
+  font-size: 20px;
+}
+.about-text-1{
+  text-align: justify;
+  font-size: 18px;
+}
+.navcss{
+    background-color: pink;
+    height: 60px;
+}
+.event-image{
+    width: 100%;
+   
+}
+.event-image-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 395px;
+}
+/* media qurie for top img of event page*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .event-img{
+    margin-bottom:555px;
+  }
+  .event-img h1{
+    color: rgb(255, 255, 255);
+    font-size:25px;
+    text-align: left;
+    width:100%;  
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .event-img{
+    margin-bottom:530px;
+  
+  }
+  .event-img h1{
+    color: rgb(255, 255, 255);
+    font-size:50px;
+    text-align: left;
+    width:100%;  
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .event-img{
+    margin-bottom:520px;
+  
+  }
+  .event-img h1{
+    color: rgb(255, 255, 255);
+    font-size:50px;
+    text-align: left;
+    width:100%;  
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .event-img{
+    margin-bottom:505px;
+  
+  }
+  .event-img h1{
+    color: rgb(255, 255, 255);
+    font-size:50px;
+    text-align: left;
+    width:100%;  
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1201px) {
+  .event-img{
+    margin-bottom:480px;
+  
+  }
+  .event-img h1{
+    color: rgb(255, 255, 255);
+    font-size:70px;
+    text-align: left;
+    width:100%;  
+  }
+}
+/* media quier for event end  */
+
+/* home css */
+.home-text{
+  text-align: justify;
+  font-size: 20px;
+}
+.home-quote{
+    background-image: linear-gradient(to bottom right, white,#FFE0E0);
+    padding: 20px 70px;
+    margin-top: 30px;
+    text-align: center;
+}
+.home-video-con{
+    margin-top: 30px;
+    padding-left: 90px;
+    text-align: center;
+}
+.video-text h2{
+    margin-top: 25px;
+    color: red;
+    text-align: left;
+    padding-left: 30px;
+}
+.video-text p{
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+/* media quire for slider */
+@media only screen and (max-width: 599px){
+    .option{
+        margin-bottom:460px;
+        
+      }
+      .option h1{
+       color: rgb(0, 0, 0);
+        font-size:15px;
+        text-align: left;
+        width:100%;  
+      }
+      
+      .option p{
+        color: rgb(255, 255, 255);
+        width: 50%;
+         text-align: justify;
+        font-size: 9px;
+      }
+       .item-button{
+          text-align: left;
+      }
+      .item-button button {
+          border-radius: 25px;
+          color:white;
+          background-color: rgb(153, 8, 8);
+          text-align: center;
+          padding: 5px 0px;
+          /* margin-top: 15px; */
+          width:28%;
+         
+      }
+      .item-button button:hover{
+          transform: translate(y);
+          border:3px solid white;
+      }
+}
+@media only screen and (min-width: 600px) and (max-width: 959px){
+    .option{
+        margin-bottom:380px;
+        
+      }
+      .option h1{
+       color: rgb(0, 0, 0);
+        font-size:20px;
+        text-align: left;
+        width:100%;  
+      }
+      
+      .option p{
+        color: rgb(241, 0, 0);
+        width: 50%;
+         text-align: justify;
+        font-size: 15px;
+      }
+       .item-button{
+          text-align: left;
+      }
+      .item-button button {
+          border-radius: 25px;
+          color:white;
+          background-color: rgb(153, 8, 8);
+          text-align: center;
+          padding: 5px 0px;
+          margin-top: 15px;
+          width:25%;
+         
+      }
+      .item-button button:hover{
+          transform: translate(y);
+          border:3px solid white;
+      }
+}
+
+  /* @media only screen and (min-width: 768px){
+      .option{
+        margin-bottom:90px;
+        
+      }
+      .option h1{
+        color: rgb(84, 228, 0);
+       margin-top: 10px;
+        margin-bottom: 10px;
+        font-size:70px;
+        text-align: left;
+        width:100%;  
+      }
+      
+      .option p{
+        color: rgb(0, 0, 0);
+        width: 50%;
+        margin-top: 1%;
+        text-align: justify;
+        font-size: 35px;
+      }
+       .item-button{
+          text-align: left;
+      }
+      .item-button button{
+          border-radius: 25px;
+          color:white;
+          background-color: rgb(153, 8, 8);
+          text-align: center;
+          padding: 10px 0px;
+          margin-top: 35px;
+          width: 15%;
+         
+      }
+      .item-button button:hover{
+          transform: translate(y);
+          border:3px solid white;
+      }
+} }*/
+
+
+@media only screen and (min-width: 768px){
+    .option{
+      margin-bottom:60px;
+      
+    }
+    .option h1{
+      color: rgb(0, 0, 0);
+     margin-top: 10px;
+      margin-bottom: 10px;
+      font-size:70px;
+      text-align: left;
+      width:100%;  
+    }
+    
+    .option p{
+      color: rgb(0, 0, 0);
+      width: 50%;
+      margin-top: 1%;
+      text-align: justify;
+      font-size: 35px;
+    }
+     .item-button{
+        text-align: left;
+    }
+    .item-button button{
+        border-radius: 25px;
+        color:white;
+        background-color: rgb(153, 8, 8);
+        text-align: center;
+        padding: 10px 0px;
+        margin-top: 35px;
+        width: 15%;
+       
+    }
+    .item-button button:hover{
+        transform: translate(y);
+        border:3px solid white;
+    }
+  }
+
+@media only screen and (min-width: 768px){
+    .option{
+      margin-bottom:280px;
+      
+    }
+    .option h1{
+      color: rgb(255, 9, 9);
+     margin-top: 10px;
+      margin-bottom: 10px;
+      font-size:30px;
+      text-align: left;
+      width:100%;  
+    }
+    
+    .option p{
+      color: rgb(0, 0, 0);
+      width: 60%;
+      margin-top: 1%;
+      text-align: justify;
+      font-size: 20px;
+    }
+     .item-button{
+        text-align: left;
+    }
+    .item-button button{
+        border-radius: 25px;
+        color:white;
+        background-color: rgb(153, 8, 8);
+        text-align: center;
+        padding: 10px 0px;
+        margin-top:20px;
+        width: 20%;
+       
+    }
+    .item-button button:hover{
+        transform: translate(y);
+        border:3px solid white;
+    }
+  }
+
+  @media only screen and  (min-width: 960px) and (max-width: 1279){
+    .option{
+        margin-bottom:90px;
+        
+      }
+      .option h1{
+        color: rgb(255, 239, 239);
+       margin-top: 10px;
+        margin-bottom: 10px;
+        font-size:20px;
+        text-align: left;
+        width:100%;  
+      }
+      
+      .option p{
+        color: rgb(0, 0, 0);
+        width: 50%;
+        margin-top: 1%;
+        text-align: justify;
+        font-size: 35px;
+      }
+       .item-button{
+          text-align: left;
+      }
+      .item-button button{
+          border-radius: 25px;
+          color:white;
+          background-color: rgb(153, 8, 8);
+          text-align: center;
+          padding: 10px 0px;
+          margin-top: 35px;
+          width: 15%;
+         
+      }
+      .item-button button:hover{
+          transform: translate(y);
+          border:3px solid white;
+      }
+    }
+
+    @media only screen and (min-width: 1280px) {
+        .option{
+            margin-bottom:70px;
+            
+          }
+          .option h1{
+            color: rgb(2, 0, 0);
+           margin-top: 5px;
+            margin-bottom: 10px;
+            font-size:60px;
+            text-align: left;
+            width:100%;  
+          }
+          
+          .option p{
+            color: rgb(0, 0, 0);
+            width: 50%;
+            margin-top: 1%;
+            text-align: justify;
+            font-size: 30px;
+          }
+           .item-button{
+              text-align: left;
+          }
+          .item-button button{
+              border-radius: 25px;
+              color:white;
+              background-color: rgb(153, 8, 8);
+              text-align: center;
+              padding: 10px 0px;
+              margin-top: 35px;
+              width: 15%;
+              border:5px solid rgb(2, 0, 0);
+
+             
+          }
+          .item-button button:hover{
+              transform: translate(y);
+          }
+    }

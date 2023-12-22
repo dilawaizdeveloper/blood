@@ -2,6 +2,7 @@
 /* navbar css */
 .navcss{
   background-color: pink;
+  /* background-image: linear-gradient(rgba(250, 204, 204, 0.801),rgb(248, 248, 248) ); */
   height: 80px;
 }
 /* primary navbar */
@@ -12,7 +13,6 @@
 /* secondary navbar  */
 .navbar{
   margin-top: 30px;
-  padding-top: 20px;
 }
 @media(max-width:991px){
   .sidebar{

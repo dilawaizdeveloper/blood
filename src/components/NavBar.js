@@ -4,21 +4,21 @@ const NavBar = () => {
   return (
     <>
    
-<div className="container"></div>
+<div className="container-fluid"></div>
 <section className="bg-dark fixed-top ">
   <div className="container">
     <div className="row top-bar" style={{paddingBottom: 5}}>
       <div className="col" style={{textAlign: 'left'}}>
         <span className="text-white">
-          <i className="fas fa-envelope" />
+          <i className="fas fa-envelope" />&nbsp; &nbsp;
           bloodbuddies@gmail.com
         </span>
         <span className="text-white">
           |
         </span>
         <span className="text-white ">
-          <i className="fas fa-phone" />
-          +923 468802828 
+          <i className="fas fa-phone" />&nbsp;&nbsp;
+          +923 00000000
         </span>
       </div>
       <div className="col" style={{textAlign: 'right'}}>
@@ -52,21 +52,21 @@ const NavBar = () => {
     {/* sidebar body  */}
     <div className="offcanvas-body mx-auto">
       <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-        <li className="nav-item mx-4">
+        <li className="nav-item mx-3">
           <Link className="nav-link navbar-text" to="/">HOME</Link>
         </li>
-        <li className="nav-item mx-4">
+        <li className="nav-item mx-3">
           <Link className="nav-link navbar-text" to="/about">ABOUT</Link>
         </li>
-        <li className="nav-item mx-4">
+        <li className="nav-item mx-3">
           <Link className="nav-link navbar-text" to="/contact">CONTACT </Link>
         </li>
-        <li className="nav-item mx-5">
+        <li className="nav-item mx-3">
           <Link className="nav-link navbar-text" to="/bloodinfo">Blood Info</Link>
         </li>
       </ul>
       {/* login  */}
-      <div className="mt-2 pe-5">
+      <div className="mt-2 me-5 pe-5">
         <Link to="/register" className="b1 text-white text-decoration-none px-3 py-2 rounded-3">Register</Link>
       </div>
     </div>

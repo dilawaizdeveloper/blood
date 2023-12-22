@@ -10,7 +10,7 @@ const About = () => {
         {/* ------potion0 */}
 
      <div className="container-fluid slider-margin  ">
-        <img src="/images/hhkh.png" className="d-block w-100" alt="..." />
+        <img src="/images/6.png" className="d-block w-100" alt="..." />
         <div className="about-img carousel-caption">
           <h1>About Us</h1>
         </div>

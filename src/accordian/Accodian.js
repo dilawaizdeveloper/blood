@@ -7,7 +7,7 @@ const Accordian = () => {
   return (
     <>
     <section className="main-div container-fluid">
-        <h1>Frequently Asked Question</h1>
+        <h1 className='heading-text '>Frequently Asked Question</h1>
     {
      data.map((curElem) => {
         const { id } =  curElem;

@@ -9,8 +9,8 @@ const About = () => {
     <NavBar/>
         {/* ------potion0 */}
 
-     <div className="container-fluid ">
-        <img src="/images/6.png" className="d-block w-100" alt="..." />
+     <div className="container-fluid slider-margin  ">
+        <img src="/images/hhkh.png" className="d-block w-100" alt="..." />
         <div className="about-img carousel-caption">
           <h1>About Us</h1>
         </div>
@@ -28,7 +28,7 @@ const About = () => {
     </div>
   </div>
   <div className="col-sm-6 m-2" style={{width: '24rem', border: 'none'}}>
-      <img src="/images/img2.png" className="card-img-top mt-2 mission" alt="..." />
+      <img src="/images/4.png" className="card-img-top mt-2 mission" alt="..." />
       
     </div>
 </div>
@@ -44,7 +44,7 @@ const About = () => {
       <br />
       <br />
       <div className="text">
-        <h4>Our Mission</h4>
+        <h4 className='heading-text'>Our Mission</h4>
         <p className="card-text about-text-1" >At Blood Donors United, our mission is to save lives and foster a culture of compassion, hope, and unity through voluntary blood donations. We are dedicated to ensuring a safe and reliable blood supply that can address the ever-present need for life-saving transfusions. 
         </p>
       </div>
@@ -55,7 +55,7 @@ const About = () => {
       <br />
       <br />
       <div className="text">
-        <h4>Our Statement</h4>
+        <h4 className='heading-text'>Our Statement</h4>
         <p className="card-text about-text-1">Our vision is a Pakistan where no one has to suffer or perish due to a shortage of blood. We aspire to create a social network of selfless donors, united by their willingness to give the gift of life. We aim to make voluntary blood donation a part of everyday life.</p>
       </div>
     </div>

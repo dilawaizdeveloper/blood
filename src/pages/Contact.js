@@ -1,11 +1,13 @@
 import React from 'react'
+import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
 const Contact = () => {
   return (
     <>
-         <h1>Contact us</h1>
+    <NavBar/>
     <div>
-  <div className="container-fluid contact-header">
+  <div className="container-fluid contact-header slider-margin">
     <div className="row contact-text ">
       <div className="col-lg-6 handsome" data-aos="fade-in">
         <br /><br />
@@ -64,12 +66,25 @@ const Contact = () => {
       <br />
       <br />
       <div className="text">
-        <h4>Our Statement</h4>
-        <p className="card-text about-text-1">Our vision is a Pakistan where no one has to suffer or perish due to a shortage of blood. We aspire to create a social network of selfless donors, united by their willingness to give the gift of life. We aim to make voluntary blood donation a part of everyday life.</p>
-      </div>
+        <h2>Start A new Conversation</h2>
+      <div class="jkh">               
+                   <i class="fa fa-location-dot"></i>
+                    <h4>Location</h4>
+                    <p>Iqbal Town Wahdat Road Lhr.</p>
+                    
+                    <i class="fa fa-phone"></i>
+                    <h4>Toll Free number</h4>
+                    <p>0301****0</p>
+                
+                    <i class="fa-solid fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p>email@gmail.com </p>
+       </div>  </div>
     </div>
   </div>
 </div>
+
+<Footer/>
     </>
   )
 }

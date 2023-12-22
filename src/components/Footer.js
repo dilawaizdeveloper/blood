@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <>
-     <div className="container-fluid s1 fixed-end">
+     <div className="container-fluid f1 fixed-end">
   <footer className="py-5">
     <div className="row">
       <div className="n1 col-2">
@@ -21,25 +22,20 @@ const Footer = () => {
         <h5>QUICK LINKS</h5>
         <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{width: 60, backgroundColor: 'white', height: 2}} />
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 ">HOME</a></li>
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 ">ABOUT</a></li>
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 ">CONTACT</a></li>
+          <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 ">HOME</Link></li>
+          <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0 ">ABOUT</Link></li>
+          <li className="nav-item mb-2"><Link to="/contact" className="nav-link p-0 ">CONTACT</Link></li>
         </ul></div>
       <div className="n1 col-2">
         <div className="n2 mt-5">
           <ul className="nav flex-column">
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 ">BLOOD INFO</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 ">DONATE</a></li>  
+            <li className="nav-item mb-2"><Link to="/bloodinfo" className="nav-link p-0 ">BLOOD INFO</Link></li>
+            <li className="nav-item mb-2"><Link to="/donar" className="nav-link p-0 ">DONATE</Link></li>  
           </ul></div>
       </div>
       <div className="n1 col-4 ">
         <img className="logo1" src="/images/logo.png" alt="logo" width={150} height={80} />
         <p style={{color: 'white'}}><b>BLOOD BUDDIES</b></p>
-        {/* <div class="d-flex w-100 gap-2">
-            <label for="newsletter1" class="visually-hidden">Email address</label>
-            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-            <button class="btn btn-primary" type="button">Subscribe</button>
-          </div> */}
       </div>
     </div>
     <div className>

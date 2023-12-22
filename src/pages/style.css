@@ -1,177 +1,9 @@
-
-  /* media qurie for top img of about page */
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .about-img{
-    margin-bottom:555px;
-  }
-  .about-img h1{
-    color: rgb(255, 0, 0);
-    font-size:25px;
-    text-align: left;
-    width:100%;  
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  .about-img{
-    margin-bottom:535px;
-  
-  }
-  .about-img h1{
-    color: rgb(221, 19, 19);
-    font-size:45px;
-    text-align: left;
-    width:100%;  
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 769px) and (max-width: 992px) {
-  .about-img{
-    margin-bottom:520px;
-  
-  }
-  .about-img h1{
-    color: rgb(221, 19, 19);
-    font-size:50px;
-    text-align: left;
-    width:100%;  
-  }
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 993px) and (max-width: 1200px) {
-  .about-img{
-    margin-bottom:505px;
-  
-  }
-  .about-img h1{
-    color: rgb(221, 19, 19);
-    font-size:50px;
-    text-align: left;
-    width:100%;  
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1201px) {
-  .about-img{
-    margin-bottom:480px;
-  
-  }
-  .about-img h1{
-    color: rgb(221, 19, 19);
-    font-size:70px;
-    text-align: left;
-    width:100%;  
-  }
-}
-/* about media qurie end  */
-
-
-.about-image{
-    width: 100%;
-}
-.about-text{
-  text-align: justify;
-  font-size: 20px;
-}
-.about-text-1{
-  text-align: justify;
-  font-size: 18px;
-}
+                                            /* Home page css start  */
+/* navbar css */
 .navcss{
-    background-color: pink;
-    height: 60px;
+  background-color: pink;
+  height: 80px;
 }
-.event-image{
-    width: 100%;
-   
-}
-.event-image-2{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 395px;
-}
-/* media qurie for top img of event page*/
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .event-img{
-    margin-bottom:555px;
-  }
-  .event-img h1{
-    color: rgb(255, 255, 255);
-    font-size:25px;
-    text-align: left;
-    width:100%;  
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  .event-img{
-    margin-bottom:530px;
-  
-  }
-  .event-img h1{
-    color: rgb(255, 255, 255);
-    font-size:50px;
-    text-align: left;
-    width:100%;  
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 769px) and (max-width: 992px) {
-  .event-img{
-    margin-bottom:520px;
-  
-  }
-  .event-img h1{
-    color: rgb(255, 255, 255);
-    font-size:50px;
-    text-align: left;
-    width:100%;  
-  }
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 993px) and (max-width: 1200px) {
-  .event-img{
-    margin-bottom:505px;
-  
-  }
-  .event-img h1{
-    color: rgb(255, 255, 255);
-    font-size:50px;
-    text-align: left;
-    width:100%;  
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1201px) {
-  .event-img{
-    margin-bottom:480px;
-  
-  }
-  .event-img h1{
-    color: rgb(255, 255, 255);
-    font-size:70px;
-    text-align: left;
-    width:100%;  
-  }
-}
-/* media quier for event end  */
-
-/* home css */
 /* primary navbar */
 .top-bar span{
   font-size: 13px;
@@ -180,10 +12,12 @@
 /* secondary navbar  */
 .navbar{
   margin-top: 30px;
+  padding-top: 20px;
 }
 @media(max-width:991px){
   .sidebar{
       backdrop-filter: blur(10px);
+      -bs-gutter-x: 0rem;
   }
 }
 .b1{
@@ -192,6 +26,10 @@
 .b1:hover{
   background-color: #fd0505;
 }
+.slider-margin{
+  margin-top: 116px;
+}
+/* navbar css end  */
 
 .home-text{
   text-align: justify;
@@ -222,11 +60,57 @@
     margin-right: 50px;
     
 }
+/* search bar  */
 
+.s1{
+  background-image: url(/public/images/search-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;    
+}
+.s2{
+
+  margin-left: 40%;
+
+}
+.row row1{
+margin-left: 2000%;
+}
+.header{
+  margin: 0;
+  padding: 20px 0;
+}
+.header  h1{
+  color: white;
+}
+
+.b1{
+  background-color:#BF0505;
+  
+  margin-left: 47%;
+}
+.b1:hover{
+  background-color: #fd0505;
+}
+.row1{
+  padding: 60px 100px 0px;
+}
+@media(max-width: 1024){
+  .row1{
+      padding: 60px 150px 8px;
+  }
+}
+@media(max-width: 520){
+  .row1{
+      padding: 0px;
+  }
+}
 /* media quire for slider */
 @media only screen and (max-width: 599px){
     .option{
-        margin-bottom:460px;
+        margin-bottom:380px;
         
       }
       .option h1{
@@ -262,12 +146,12 @@
 }
 @media only screen and (min-width: 600px) and (max-width: 959px){
     .option{
-        margin-bottom:380px;
+        margin-bottom:300px;
         
       }
       .option h1{
        color: rgb(0, 0, 0);
-        font-size:20px;
+        font-size:15px;
         text-align: left;
         width:100%;  
       }
@@ -276,7 +160,7 @@
         color: rgb(241, 0, 0);
         width: 50%;
          text-align: justify;
-        font-size: 15px;
+        font-size: 10px;
       }
        .item-button{
           text-align: left;
@@ -298,7 +182,7 @@
 }
 @media only screen and (min-width: 768px){
     .option{
-      margin-bottom:60px;
+      margin-bottom:150px;
       
     }
     .option h1{
@@ -338,7 +222,7 @@
 
 @media only screen and (min-width: 768px){
     .option{
-      margin-bottom:280px;
+      margin-bottom:210px;
       
     }
     .option h1{
@@ -378,11 +262,11 @@
 
   @media only screen and  (min-width: 960px) and (max-width: 1279){
     .option{
-        margin-bottom:90px;
+        margin-bottom:30px;
         
       }
       .option h1{
-        color: rgb(255, 239, 239);
+        color: rgb(139, 66, 66);
        margin-top: 10px;
         margin-bottom: 10px;
         font-size:20px;
@@ -418,7 +302,7 @@
 
     @media only screen and (min-width: 1280px) {
         .option{
-            margin-bottom:70px;
+            margin-bottom:10px;
             
           }
           .option h1{
@@ -441,14 +325,14 @@
               text-align: left;
           }
           .item-button button{
-              border-radius: 25px;
-              color:white;
+              border-radius: 26px;
+              color:rgb(255, 255, 255);
               background-color: rgb(153, 8, 8);
               text-align: center;
               padding: 10px 0px;
               margin-top: 35px;
               width: 15%;
-              border:5px solid rgb(2, 0, 0);
+              border:4px solid rgb(0, 0, 0);
 
              
           }
@@ -456,86 +340,202 @@
               transform: translate(y);
           }
     }
-    /* footer css */
-    .s1{
-        background: url(/public/images/img1.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: relative;
-        padding: 0 80px 0 80px;
-        
-      }
-     .n1 ul li a {
-      color: white;
-      text-decoration: none;
-      }
-      .n1{ 
-        width: 25%;
-        padding: 0 15px;
-      }
-      .n1 .n2{
-        padding-left: 0px;
-        margin-left: 0px;
-        padding-top: 15px;
-      }
-    h5{
-      color: white;
-    }  
-    .n1 .logo1{
-      margin-top: 20%;
-    }
-    .icon1{
-        size: 900%;
-        padding:  50px;
-      }
-      .icon2{
-      width: 15%;
-        padding-top: 80px ;
-      }
-      .n1 ul li a:hover{
-	color: rgb(248, 151, 151);
-	padding-left: 8px;
-}
-      /* .social-links{
-        padding: 0 0 0 500px;
-    
-      } */
-       .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: rgba(255,255,255,0.2);
-	margin:0 5px 5px 0;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: #ffffff;
-	transition: all 0.5s ease;
-}
-.social-links a:hover{
-	color: #24262b;
-	background-color: #ffffff;
-}
-.social-links{
-  padding-left: 200px;
-  padding-top: 0px;
-}
-    
 
-    @media(max-width: 767px) {
-      .n1{
-        width: 50px;
-        margin-bottom: 30px;
-      }
-      }
-    @media(max-width: 574px){
-      .n1{
-        width: 100%;
-        margin-bottom: 30px;
-      }
+
+                                           /*   home page css end  */
+                    
+                                                   /* about page css start  */
+  /* media qurie for top img of about page */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .about-img{
+    margin-bottom:520px;
+  }
+  .about-img h1{
+    color: rgb(255, 0, 0);
+    font-size:25px;
+    text-align: left;
+    width:100%;  
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .about-img{
+    margin-bottom:500px;
+  
+  }
+  .about-img h1{
+    color: rgb(221, 19, 19);
+    font-size:45px;
+    text-align: left;
+    width:100%;  
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .about-img{
+    margin-bottom:480px;
+  
+  }
+  .about-img h1{
+    color: rgb(221, 19, 19);
+    font-size:50px;
+    text-align: left;
+    width:100%;  
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .about-img{
+    margin-bottom:480px;
+  
+  }
+  .about-img h1{
+    color: rgb(221, 19, 19);
+    font-size:50px;
+    text-align: left;
+    width:100%;  
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1201px) {
+  .about-img{
+    margin-bottom:440px;
+  
+  }
+  .about-img h1{
+    color: rgb(221, 19, 19);
+    font-size:70px;
+    text-align: left;
+    width:100%;  
+  }
+}
+/* about media qurie end  */
+
+
+.about-image{
+    width: 100%;
+}
+.about-text{
+  text-align: justify;
+  font-size: 25px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+.about-text-1{
+  text-align: justify;
+  font-size: 20px;
+  color: black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-text{
+  text-align: justify;
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  color: black;
+}
+.heading-text{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 29px;
+}
+
+                                                   /* about page css end  */
+
+                                               /* blood info page css start */
+    .bloodinfo-image{
+      width: 100%;
+     
+  }
+  .bloodinfo-image-2{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 395px;
+  }
+  /* media qurie for top img of bloodinfo page*/
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .bloodinfo-img{
+      margin-bottom:520px;
     }
-/* contact us css */
+    .bloodinfo-img h1{
+      color: rgb(255, 255, 255);
+      font-size:25px;
+      text-align: left;
+      width:100%;  
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    .bloodinfo-img{
+      margin-bottom:500px;
+    
+    }
+    .bloodinfo-img h1{
+      color: rgb(255, 255, 255);
+      font-size:50px;
+      text-align: left;
+      width:100%;  
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    .bloodinfo-img{
+      margin-bottom:480px;
+    
+    }
+    .bloodinfo-img h1{
+      color: rgb(255, 255, 255);
+      font-size:50px;
+      text-align: left;
+      width:100%;  
+    }
+  
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .bloodinfo-img{
+      margin-bottom:460px;
+    
+    }
+    .bloodinfo-img h1{
+      color: rgb(255, 255, 255);
+      font-size:50px;
+      text-align: left;
+      width:100%;  
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1201px) {
+    .bloodinfo-img{
+      margin-bottom:440px;
+    
+    }
+    .bloodinfo-img h1{
+      color: rgb(255, 255, 255);
+      font-size:70px;
+      text-align: left;
+      width:100%;  
+    }
+  }
+  /* media quier for bloodinfo end  */
+
+                                      /* blood info page css end */
+                                      
+                                      /* contact us css start  */
+
 .wrapper {
   display: flex;
   justify-content: space-around;
@@ -589,19 +589,6 @@ font-size: 45px;
 color: rgb(255, 241, 241);
 background-color: rgb(0, 0, 0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* contact form css */
 
@@ -725,7 +712,6 @@ color: rgb(0, 0, 0);
   padding: 5px 0;
   font-size: 16px;
   margin: 10px 0;
-  pointer-events: none;
   transition: 0.5s;
   color: #666;
 }
@@ -769,3 +755,121 @@ text-decoration: none;
       width: 100%;
   }
 }
+
+                             /* contact us css end  */
+                                                   /* register page css start */
+     .form-container{
+    background-image: url(/public/images/signup.png);
+    padding: 40px 0px;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+  }
+  .form-css{
+    width: 60vh;
+    color: black;
+    padding: 20px 15px;
+    border: 2px black solid;
+    background-color: white;
+    margin-left: 30px;
+  }
+  table{      
+        border-collapse: seperate; 
+        border-spacing: 0 25px;
+        text-align: left;
+  	}
+    table tr td{
+        padding: 10px;
+    }
+  .form-lable{
+    padding-right: 75px;
+  }
+.submit-decore{
+  margin-top: 10px;
+  text-align: center;
+  border: 2px black solid;
+  border-radius: 43px;
+  padding: 5px 15px;
+  background-color: white;
+  margin-left: 110px;
+}
+                                                  /* register page css end */
+                                      /* footer page css start */
+  
+    .f1{
+      background: url(/public/images/img1.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      padding: 0 80px 0 80px;
+      
+    }
+   .n1 ul li a {
+    color: white;
+    text-decoration: none;
+    }
+    .n1{ 
+      width: 25%;
+      padding: 0 15px;
+    }
+    .n1 .n2{
+      padding-left: 0px;
+      margin-left: 0px;
+      padding-top: 15px;
+    }
+  h5{
+    color: white;
+  }  
+  .n1 .logo1{
+    margin-top: 20%;
+  }
+  .icon1{
+      size: 900%;
+      padding:  50px;
+    }
+    .icon2{
+    width: 15%;
+      padding-top: 80px ;
+    }
+    .n1 ul li a:hover{
+color: rgb(248, 151, 151);
+padding-left: 8px;
+}
+     .social-links a{
+display: inline-block;
+height: 40px;
+width: 40px;
+background-color: rgba(255,255,255,0.2);
+margin:0 5px 5px 0;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: #ffffff;
+transition: all 0.5s ease;
+}
+.social-links a:hover{
+color: #24262b;
+background-color: #ffffff;
+}
+.social-links{
+padding-left: 200px;
+padding-top: 0px;
+}
+  
+
+  @media(max-width: 767px) {
+    .n1{
+      width: 50px;
+      margin-bottom: 30px;
+    }
+    }
+  @media(max-width: 574px){
+    .n1{
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+                                                 /* footer page css end  */

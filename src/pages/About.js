@@ -8,16 +8,15 @@ const About = () => {
 
     <NavBar/>
         {/* ------potion0 */}
-
-     <div className="container-fluid slider-margin  ">
-        <img src="/images/6.png" className="d-block w-100" alt="..." />
-        <div className="about-img carousel-caption">
+            <div className="container-fluid slider-margin">
+              <div className="container-fluid about-image">
+              <div className="about-img">
           <h1>About Us</h1>
         </div>
+              </div>
       </div>
       {/* ------Portion 1 */}
-      <br />
-      
+     
  <div className="container-fluid  mx-auto">
   <div className="row  d-flex justify-content-center ">
     <div className="col-sm-6 m-2 " style={{width: '40rem', border: 'none'}}>

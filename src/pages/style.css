@@ -30,7 +30,6 @@
   margin-top: 116px;
 }
 /* navbar css end  */
-
 .home-text{
   text-align: justify;
   font-size: 20px;
@@ -107,313 +106,259 @@ margin-left: 2000%;
       padding: 0px;
   }
 }
+
 /* media quire for slider */
+
 @media only screen and (max-width: 599px){
-    .option{
-        margin-bottom:380px;
-        
-      }
+  .home-image{
+    background-image: url(/public/images/home.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 160px; 
+  }
+   
       .option h1{
        color: rgb(0, 0, 0);
-        font-size:15px;
+        font-size:10px;
         text-align: left;
         width:100%;  
+        padding-top: 20px;
+      }
+      
+      .option p{
+        color: rgb(255, 255, 255);
+        width: 40%;
+        text-align: justify;
+        font-size: 8px;
+      }
+       /* home button  */
+      .home-button{
+         background-color:#BF0505;
+      }
+      .home-button:hover{
+         background-color: #fd0505;
+          border:black 2px solid;
+        }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 959px){
+  .home-image{
+    background-image: url(/public/images/home.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 200px; 
+  }
+
+      .option h1{
+       color: rgb(0, 0, 0);
+        font-size:19px;
+        text-align: left;
+        width:100%; 
+        padding-top: 30px; 
       }
       
       .option p{
         color: rgb(255, 255, 255);
         width: 50%;
          text-align: justify;
-        font-size: 9px;
+        font-size: 13px;
       }
-       .item-button{
-          text-align: left;
-      }
-      .item-button button {
-          border-radius: 25px;
-          color:white;
-          background-color: rgb(153, 8, 8);
-          text-align: center;
-          padding: 5px 0px;
-          /* margin-top: 15px; */
-          width:28%;
-         
-      }
-      .item-button button:hover{
-          transform: translate(y);
-          border:3px solid white;
-      }
+      .home-button{
+        background-color:#BF0505;
+     }
+     .home-button:hover{
+        background-color: #fd0505;
+         border:black 2px solid;
+       }
 }
-@media only screen and (min-width: 600px) and (max-width: 959px){
-    .option{
-        margin-bottom:300px;
-        
-      }
-      .option h1{
-       color: rgb(0, 0, 0);
-        font-size:15px;
-        text-align: left;
-        width:100%;  
-      }
-      
-      .option p{
-        color: rgb(241, 0, 0);
-        width: 50%;
-         text-align: justify;
-        font-size: 10px;
-      }
-       .item-button{
-          text-align: left;
-      }
-      .item-button button {
-          border-radius: 25px;
-          color:white;
-          background-color: rgb(153, 8, 8);
-          text-align: center;
-          padding: 5px 0px;
-          margin-top: 15px;
-          width:25%;
-         
-      }
-      .item-button button:hover{
-          transform: translate(y);
-          border:3px solid white;
-      }
-}
-@media only screen and (min-width: 768px){
-    .option{
-      margin-bottom:150px;
-      
-    }
-    .option h1{
-      color: rgb(0, 0, 0);
-     margin-top: 10px;
-      margin-bottom: 10px;
-      font-size:70px;
-      text-align: left;
-      width:100%;  
-    }
-    
-    .option p{
-      color: rgb(0, 0, 0);
-      width: 50%;
-      margin-top: 1%;
-      text-align: justify;
-      font-size: 35px;
-    }
-     .item-button{
-        text-align: left;
-    }
-    .item-button button{
-        border-radius: 25px;
-        color:white;
-        background-color: rgb(153, 8, 8);
-        text-align: center;
-        padding: 10px 0px;
-        margin-top: 35px;
-        width: 15%;
-       
-    }
-    .item-button button:hover{
-        transform: translate(y);
-        border:3px solid white;
-    }
-  }
 
 @media only screen and (min-width: 768px){
-    .option{
-      margin-bottom:210px;
-      
-    }
+  .home-image{
+    background-image: url(/public/images/home.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 400px; 
+  }
+
     .option h1{
-      color: rgb(255, 9, 9);
+      color: rgb(0, 0, 0);
      margin-top: 10px;
       margin-bottom: 10px;
       font-size:30px;
       text-align: left;
       width:100%;  
+      padding-top: 35px;
+      padding-left: 30px;
     }
     
     .option p{
-      color: rgb(0, 0, 0);
-      width: 60%;
+      padding-left: 30px;
+      color: rgb(255, 255, 255);
+      width: 50%;
       margin-top: 1%;
       text-align: justify;
       font-size: 20px;
     }
-     .item-button{
-        text-align: left;
-    }
-    .item-button button{
-        border-radius: 25px;
-        color:white;
-        background-color: rgb(153, 8, 8);
-        text-align: center;
-        padding: 10px 0px;
-        margin-top:20px;
-        width: 20%;
-       
-    }
-    .item-button button:hover{
-        transform: translate(y);
-        border:3px solid white;
-    }
+    .home-button{
+      background-color:#BF0505;
+   }
+   .home-button:hover{
+      background-color: #fd0505;
+       border:rgb(160, 45, 45) 2px solid;
+     }
   }
 
-  @media only screen and  (min-width: 960px) and (max-width: 1279){
-    .option{
-        margin-bottom:30px;
-        
-      }
-      .option h1{
-        color: rgb(139, 66, 66);
-       margin-top: 10px;
-        margin-bottom: 10px;
-        font-size:20px;
-        text-align: left;
-        width:100%;  
-      }
-      
-      .option p{
-        color: rgb(0, 0, 0);
-        width: 50%;
-        margin-top: 1%;
-        text-align: justify;
-        font-size: 35px;
-      }
-       .item-button{
-          text-align: left;
-      }
-      .item-button button{
-          border-radius: 25px;
-          color:white;
-          background-color: rgb(153, 8, 8);
-          text-align: center;
-          padding: 10px 0px;
-          margin-top: 35px;
-          width: 15%;
-     
-      }
-      .item-button button:hover{
-          transform: translate(y);
-          border:3px solid white;
-      }
-    }
+ 
 
     @media only screen and (min-width: 1280px) {
-        .option{
-            margin-bottom:10px;
-            
-          }
+      .home-image{
+        background-image: url(/public/images/home.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 550px; 
+      }
+        
           .option h1{
-            color: rgb(2, 0, 0);
+            color: rgb(0, 0, 0);
            margin-top: 5px;
             margin-bottom: 10px;
             font-size:60px;
             text-align: left;
             width:100%;  
+            padding-top: 100px;
+            padding-left: 40px;
           }
           
           .option p{
-            color: rgb(0, 0, 0);
+            padding-left: 40px;
+            color: rgb(255, 255, 255);
             width: 50%;
             margin-top: 1%;
             text-align: justify;
             font-size: 30px;
           }
-           .item-button{
-              text-align: left;
-          }
-          .item-button button{
-              border-radius: 26px;
-              color:rgb(255, 255, 255);
-              background-color: rgb(153, 8, 8);
-              text-align: center;
-              padding: 10px 0px;
-              margin-top: 35px;
-              width: 15%;
-              border:4px solid rgb(0, 0, 0);
-
-             
-          }
-          .item-button button:hover{
-              transform: translate(y);
-          }
-    }
-
-
-                                           /*   home page css end  */
-                    
+          .home-button {
+            background-color:#BF0505;
+         }
+         .home-button:hover{
+            background-color: #fd0505;
+             border:black 2px solid;
+             transform: translate(y);
+         }
+    }                                        /*   home page css end  */
+    .botton-align{
+      padding-left: 40px;
+    }              
                                                    /* about page css start  */
   /* media qurie for top img of about page */
-
+ 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .about-img{
-    margin-bottom:520px;
+  .about-image{
+    background-image: url(/public/images/6.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 60px; 
   }
   .about-img h1{
     color: rgb(255, 0, 0);
     font-size:25px;
     text-align: left;
-    width:100%;  
+    padding-top: 10px;
+    padding-left: 20px;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
-  .about-img{
-    margin-bottom:500px;
-  
+  .about-image{
+    background-image: url(/public/images/6.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 80px; 
   }
+ 
   .about-img h1{
-    color: rgb(221, 19, 19);
+    color: rgb(0, 0, 0);
     font-size:45px;
     text-align: left;
+    padding-left: 20px;
+    padding-top: 15px;
     width:100%;  
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 769px) and (max-width: 992px) {
-  .about-img{
-    margin-bottom:480px;
-  
+  .about-image{
+    background-image: url(/public/images/6.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 140px; 
   }
   .about-img h1{
-    color: rgb(221, 19, 19);
+    color: rgb(0, 0, 0);
     font-size:50px;
     text-align: left;
     width:100%;  
+    padding-left: 30px;
+    padding-top: 30px;
   }
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
-  .about-img{
-    margin-bottom:480px;
-  
+  .about-image{
+    background-image: url(/public/images/6.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 140px; 
   }
+ 
   .about-img h1{
-    color: rgb(221, 19, 19);
+    color: rgb(0, 0, 0);
     font-size:50px;
     text-align: left;
-    width:100%;  
+    padding-left: 30px;
+    padding-top: 40px;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1201px) {
-  .about-img{
-    margin-bottom:440px;
-  
+  .about-image{
+    background-image: url(/public/images/6.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 170px; 
   }
+
   .about-img h1{
     color: rgb(221, 19, 19);
     font-size:70px;
     text-align: left;
-    width:100%;  
+    width:100%; 
+    padding-left: 50px; 
+    padding-top: 30px;
   }
 }
 /* about media qurie end  */
@@ -448,7 +393,7 @@ margin-left: 2000%;
 
                                                    /* about page css end  */
 
-                                               /* blood info page css start */
+                                     /* blood info page css start */
     .bloodinfo-image{
       width: 100%;
      
@@ -463,66 +408,105 @@ margin-left: 2000%;
   
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    .bloodinfo-img{
-      margin-bottom:520px;
+    .bloodinfo-image{
+        background-image: url(/public/images/e2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 60px; 
+      
     }
+    
     .bloodinfo-img h1{
       color: rgb(255, 255, 255);
       font-size:25px;
       text-align: left;
       width:100%;  
+      padding-left: 20px;
+      padding-top: 20px;
     }
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 601px) and (max-width: 768px) {
-    .bloodinfo-img{
-      margin-bottom:500px;
+    .bloodinfo-image{
+      background-image: url(/public/images/e2.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      height: 90px; 
     
-    }
+  }
+  
     .bloodinfo-img h1{
       color: rgb(255, 255, 255);
       font-size:50px;
       text-align: left;
       width:100%;  
+      padding-left: 20px;
+      padding-top: 20px;
     }
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 769px) and (max-width: 992px) {
-    .bloodinfo-img{
-      margin-bottom:480px;
+    .bloodinfo-image{
+      background-image: url(/public/images/e2.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      height: 120px; 
     
-    }
+  }
+  
     .bloodinfo-img h1{
       color: rgb(255, 255, 255);
       font-size:50px;
       text-align: left;
       width:100%;  
+      padding-left: 20px;
+      padding-top: 20px;
     }
   
   }
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 993px) and (max-width: 1200px) {
-    .bloodinfo-img{
-      margin-bottom:460px;
+    .bloodinfo-image{
+      background-image: url(/public/images/e2.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      height: 130px; 
     
-    }
+  }
+  
     .bloodinfo-img h1{
       color: rgb(255, 255, 255);
       font-size:50px;
       text-align: left;
       width:100%;  
+      padding-left: 20px;
+      padding-top: 20px;
     }
   }
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1201px) {
-    .bloodinfo-img{
-      margin-bottom:440px;
+    .bloodinfo-image{
+      background-image: url(/public/images/e2.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      height: 160px; 
     
-    }
+  }
+  
     .bloodinfo-img h1{
       color: rgb(255, 255, 255);
       font-size:70px;

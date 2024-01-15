@@ -9,14 +9,14 @@ const bloodinfo = () => {
     <NavBar/>
       {/* ------potion 1 */}
     
-     <div className="container-fluid slider-margin">
-        <img src="/images/e2.png" className="d-block w-100" alt="..." />
-        <div className="bloodinfo-img carousel-caption">
-          <h1>Educational Resourse</h1>
+      <div className="container-fluid slider-margin">
+              <div className="container-fluid bloodinfo-image">
+              <div className="bloodinfo-img">
+          <h1>Contact Us</h1>
         </div>
+              </div>
       </div>
-<br /> 
-<br />
+      <br />
       {/* Potion 2/ */}
 
       <div className="container">

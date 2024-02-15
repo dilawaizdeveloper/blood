@@ -53,7 +53,8 @@ const NavBar = () => {
     <div className="offcanvas-body mx-auto">
       <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
         <li className="nav-item mx-3">
-          <Link className="nav-link navbar-text" to="/">HOME</Link>
+         
+        <Link className="nav-link navbar-text" to="/">Home</Link>
         </li>
         <li className="nav-item mx-3">
           <Link className="nav-link navbar-text" to="/about">ABOUT</Link>

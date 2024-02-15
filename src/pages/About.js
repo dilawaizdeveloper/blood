@@ -21,6 +21,7 @@ const About = () => {
   <div className="row  d-flex justify-content-center ">
     <div className="col-sm-6 m-2 " style={{width: '40rem', border: 'none'}}>
     <div className="text">
+    
         <br />
       <p className="card-text about-text">Blood buddies is a non profit organization dedicated to help and support thalassemia, anemia, surgery and hemophilia patients. We are committed to open and honest communication with our donors and partners, ensuring trust and accountability. We provide a user-friendly platform where willing donors can easily connect with individuals in need of blood, ensuring a timely response to emergencies and planned transfusions. We empower donors with the knowledge and resources needed to make informed and confident choices.
       </p>
